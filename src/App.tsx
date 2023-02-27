@@ -53,6 +53,7 @@ function App() {
         <Route path="/catalog/:slug" element={<CatalogSectionPage />}></Route>
         <Route path="/catalog/:slug/:slug" element={<ProductPage />}></Route>
         <Route path="/cart" element={<CartPage />}></Route>
+        <Route path="/shop" element={<HomePage />}></Route>
         <Route path="*" element={<NotFoundPage />}></Route>
       </Routes>
       <Footer />
