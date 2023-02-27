@@ -3,17 +3,34 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fancyapps/ui": "^4.0.31",
+    "@pbe/react-yandex-maps": "^1.2.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.11",
     "@types/react": "^18.0.27",
+    "@types/react-bootstrap": "^0.32.32",
     "@types/react-dom": "^18.0.10",
+    "@types/react-paginate": "^7.1.1",
     "react": "^18.2.0",
+    "react-accordion-ts": "^1.3.0",
+    "react-bootstrap": "^2.7.0",
+    "react-bootstrap-modal": "^4.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-hook-form": "^7.42.1",
+    "react-input-mask": "^2.0.4",
+    "react-paginate": "^8.1.4",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.7.0",
+    "react-scripts": "^2.1.3",
+    "react-slick": "^0.29.0",
+    "redux": "^4.2.1",
+    "redux-devtools-extension": "^2.13.9",
+    "styled-components": "^5.3.6",
     "typescript": "^4.9.4",
+    "use-react-router-breadcrumbs": "^4.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -39,5 +56,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.20.7",
+    "@types/react-input-mask": "^3.0.2",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/react-slick": "^0.23.10",
+    "@types/styled-components": "^5.1.26"
   }
 }
