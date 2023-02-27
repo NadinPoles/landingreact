@@ -67,7 +67,7 @@ const HomePage = () => {
               <div
                 className="item"
                 style={{
-                  background: `url(/images/${slide.image}) no-repeat 0 0`,
+                  background: `url(images/${slide.image}) no-repeat 0 0`,
                   backgroundSize: "cover",
                 }}
               >
@@ -123,7 +123,7 @@ const HomePage = () => {
                 className="services_a"
                 to={`/services/${service.slug}`}
                 style={{
-                  background: `url(/images/${service.image}) no-repeat top center`,
+                  background: `url(images/${service.image}) no-repeat top center`,
                   backgroundSize: "cover",
                 }}
               >
@@ -177,7 +177,7 @@ const HomePage = () => {
                         {item.image && (
                           <Link to={`/catalog/${item.slug}`}>
                             <img
-                              src={`/images/${item.image}`}
+                              src={`images/${item.image}`}
                               alt={item.title}
                             />
                           </Link>
@@ -272,7 +272,7 @@ const HomePage = () => {
             </p>
           </div>
           <div className="order-1 order-sm-1 order-md-2 order-lg-2 order-xl-2 col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
-            <img src="/images/content.png" alt="Компания" />
+            <img src="images/content.png" alt="Компания" />
           </div>
         </div>
         <hr />
@@ -292,7 +292,7 @@ const HomePage = () => {
             >
               <Link className="sale_image" to={`/sale/${sale.slug}`}>
                 {sale.image && (
-                  <img src={`/images/${sale.image}`} alt={sale.title} />
+                  <img src={`images/${sale.image}`} alt={sale.title} />
                 )}
               </Link>
               <div className="news_a">
@@ -321,7 +321,7 @@ const HomePage = () => {
                 client.image && (
                   <div className="item" key={client.id}>
                     <div className="clients_img">
-                      <img src={`/images/${client.image}`} alt="Клиент" />
+                      <img src={`images/${client.image}`} alt="Клиент" />
                     </div>
                   </div>
                 )
