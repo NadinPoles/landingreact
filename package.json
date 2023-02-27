@@ -2,6 +2,7 @@
   "name": "shop",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nadinpoles.github.io/shop",
   "dependencies": {
     "@fancyapps/ui": "^4.0.31",
     "@pbe/react-yandex-maps": "^1.2.2",
@@ -37,7 +38,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -62,6 +65,7 @@
     "@types/react-input-mask": "^3.0.2",
     "@types/react-router-dom": "^5.3.3",
     "@types/react-slick": "^0.23.10",
-    "@types/styled-components": "^5.1.26"
+    "@types/styled-components": "^5.1.26",
+    "gh-pages": "^5.0.0"
   }
 }
