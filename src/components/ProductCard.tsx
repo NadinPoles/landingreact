@@ -27,7 +27,7 @@ const ProductCard = ({ item, topic }: { item: Product; topic: any }) => {
         >
           <img
             className="shk-image"
-            src={item.image ? `/images/${item.image}` : noimage}
+            src={item.image ? `images/${item.image}` : noimage}
             alt={item.title}
           />
         </Link>

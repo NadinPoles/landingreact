@@ -53,7 +53,7 @@ const Reviews = () => {
                   <a
                     className="fancybox_img"
                     data-fancybox="gallery"
-                    href={`/images/${review.image}`}
+                    href={`images/${review.image}`}
                   >
                     <span className="review_img">
                       <span className="review_overlay"></span>

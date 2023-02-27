@@ -20,7 +20,7 @@ const SalePage = () => {
         key={sale.id}
       >
         <Link className="sale_image" to={`/sale/${sale.slug}`}>
-          {sale.image && <img src={`/images/${sale.image}`} alt={sale.title} />}
+          {sale.image && <img src={`images/${sale.image}`} alt={sale.title} />}
         </Link>
         <div className="news_a">
           <Link to={`/sale/${sale.slug}`}>{sale.title}</Link>

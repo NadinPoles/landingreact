@@ -21,10 +21,10 @@ const CertificatesPage = () => {
             <a
               className="fancybox_img"
               data-fancybox={`gallery${сertificate.id}`}
-              href={`/images/${сertificate.image}`}
+              href={`images/${сertificate.image}`}
             >
               <img
-                src={`/images/${сertificate.image}`}
+                src={`images/${сertificate.image}`}
                 alt={сertificate.title}
               />
             </a>

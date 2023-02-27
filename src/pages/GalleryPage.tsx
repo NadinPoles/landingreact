@@ -22,7 +22,7 @@ const GalleryPage = () => {
         <Link to={`/gallery/${gallery.slug}`}>
           <span className="sale_image">
             {gallery.image && (
-              <img src={`/images/${gallery.image}`} alt={gallery.title} />
+              <img src={`images/${gallery.image}`} alt={gallery.title} />
             )}
           </span>
           <span className="news_a">{gallery.title}</span>

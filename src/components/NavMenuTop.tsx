@@ -48,7 +48,7 @@ const NavMenuTop = () => {
                 <span></span>
               </a>
               <Link className="logo_mobile" to="/">
-                <img src="/images/logo.png" width="75" alt="лого" />
+                <img src="images/logo.png" width="75" alt="лого" />
               </Link>
               <span className="phone_mobile">
                 <a href="tel:+375447345678">8-044-734-56-78</a>

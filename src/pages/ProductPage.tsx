@@ -39,10 +39,10 @@ const ProductPage = () => {
                         <div className="item">
                           <a
                             data-fancybox="gallery"
-                            href={`/images/${topic[0].image}`}
+                            href={`images/${topic[0].image}`}
                           >
                             <img
-                              src={`/images/${topic[0].image}`}
+                              src={`images/${topic[0].image}`}
                               alt={topic[0].title}
                             />
                           </a>
@@ -55,10 +55,10 @@ const ProductPage = () => {
                               <div className="item" key={item.image}>
                                 <a
                                   data-fancybox="gallery"
-                                  href={`/images/${item.image}`}
+                                  href={`images/${item.image}`}
                                 >
                                   <img
-                                    src={`/images/${item.image}`}
+                                    src={`images/${item.image}`}
                                     alt={topic[0].title}
                                   />
                                 </a>

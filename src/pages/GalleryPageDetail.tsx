@@ -31,9 +31,9 @@ const GalleryPageDetail = () => {
                 <a
                   className="fancybox_img"
                   data-fancybox="gallery"
-                  href={`/images/${image.image}`}
+                  href={`images/${image.image}`}
                 >
-                  <img src={`/images/${image.image}`} alt={topic.title} />
+                  <img src={`images/${image.image}`} alt={topic.title} />
                 </a>
               </div>
             ))}

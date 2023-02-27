@@ -25,7 +25,7 @@ const VideoPage = () => {
         >
           <span className="video_img">
             {video.image && (
-              <img src={`/images/${video.image}`} alt={video.title} />
+              <img src={`images/${video.image}`} alt={video.title} />
             )}
           </span>
           <span className="news_a">{video.title}</span>

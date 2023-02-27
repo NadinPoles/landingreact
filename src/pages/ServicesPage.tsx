@@ -16,7 +16,7 @@ const ServicesPage = () => {
             >
               <Link className="sale_image" to={`/services/${service.slug}`}>
                 {service.image && (
-                  <img src={`/images/${service.image}`} alt={service.title} />
+                  <img src={`images/${service.image}`} alt={service.title} />
                 )}
               </Link>
               <div className="news_a">
