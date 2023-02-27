@@ -17,7 +17,7 @@ const CatalogPage = () => {
               <Link to={`/catalog/${item.slug}`}>
                 <span className="razdel_cataloga_img">
                   {item.image && (
-                    <img src={`images/${item.image}`} alt={item.title} />
+                    <img src={`/images/${item.image}`} alt={item.title} />
                   )}
                 </span>
                 <span className="razdel_cataloga_title">{item.title}</span>
